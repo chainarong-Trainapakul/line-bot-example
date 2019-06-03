@@ -26,12 +26,6 @@ func NewSQLdb(s string, u string, pw string, dbn string, p int) *SQLdb {
 	}
 }
 
-/*
-type error interface {
-    ToString() string
-}
-*/
-
 func (s *SQLdb) Connect() error {
 	dsn := fmt.Sprintf("%s:%s@/%s", s.user, s.password, s.dbName)
 	conn, err := sql.Open("mysql", dsn)
