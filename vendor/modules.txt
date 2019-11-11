@@ -1,0 +1,7 @@
+# github.com/go-sql-driver/mysql v1.4.1
+github.com/go-sql-driver/mysql
+# github.com/line/line-bot-sdk-go v6.4.0+incompatible
+github.com/line/line-bot-sdk-go/linebot
+github.com/line/line-bot-sdk-go/linebot/httphandler
+# google.golang.org/appengine v1.6.5
+google.golang.org/appengine/cloudsql
